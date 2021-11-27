@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cultivos"
+        android:name="com.example.myapplication.ui.cultivos.CultivosFragment"
+        android:label="Cultivos"
+        tools:layout="@layout/fragment_cultivos" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.myapplication.ui.gallery.GalleryFragment"
+        android:label="Estaciones"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.myapplication.ui.gallery.GalleryFragment"
+        android:label="Estaciones"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_estaciones"
+        android:name="com.example.myapplication.ui.estaciones.EstacionesFragment"
+        android:label="Estaciones"
+        tools:layout="@layout/fragment_estaciones" />
+
+    <fragment
+        android:id="@+id/nav_fertilizantes"
+        android:name="com.example.myapplication.ui.fertilizantes.FertilizantesFragment"
+        android:label="Fertilizantes"
+        tools:layout="@layout/fragment_fertilizantes" />
+
+    <fragment
+        android:id="@+id/nav_indicadoresbioquimicos"
+        android:name="com.example.myapplication.ui.indicadoresBioquimicos.IndicadoresBioquimicosFragment"
+        android:label="Indicadores Bioquímicos"
+        tools:layout="@layout/fragment_indicadoresbioquimicos" />
+
+    <fragment
+        android:id="@+id/nav_vitaminas"
+        android:name="com.example.myapplication.ui.vitaminas.VitaminasFragment"
+        android:label="Vitaminas"
+        tools:layout="@layout/fragment_vitaminas" />
+
+    <fragment
+        android:id="@+id/nav_minerales"
+        android:name="com.example.myapplication.ui.Minerales.MineralesFragment"
+        android:label="Minerales"
+        tools:layout="@layout/fragment_minerales" />
+
+    <fragment
+        android:id="@+id/nav_ubicaciones"
+        android:name="com.example.myapplication.ui.ubicaciones.UbicacionesFragment"
+        android:label="Ubicaciones"
+        tools:layout="@layout/fragment_ubicaciones" />
+
+    <fragment
+        android:id="@+id/nav_climas"
+        android:name="com.example.myapplication.ui.climas.ClimasFragment"
+        android:label="Climas"
+        tools:layout="@layout/fragment_climas" />
+
+
+
+
+</navigation>
